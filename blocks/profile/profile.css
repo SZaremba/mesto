@@ -16,11 +16,12 @@
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
     .profile {
+        display: flex;
+        flex-direction: column;
         grid-template-columns: 282px;
         justify-items: center;
-        justify-content: space-around;
         margin: 42px 0 0;
     }
 }

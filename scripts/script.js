@@ -32,8 +32,8 @@ closeForm.addEventListener('click', formClose);
 const form = content.querySelector('form');
 let userName = profile.querySelector('.profile-info__name');
 let userText = profile.querySelector('.profile-info__text');
-let nameInput = popupElement.querySelector('.user__neim');
-let jobInput = popupElement.querySelector('.user__profil');
+let nameInput = popupElement.querySelector('.popup__neim');
+let jobInput = popupElement.querySelector('.popup__profil');
 function handleFormSubmit(evt) {
     evt.preventDefault();
     userName.textContent = `${nameInput.value}`;

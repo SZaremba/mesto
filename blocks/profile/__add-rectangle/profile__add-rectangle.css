@@ -5,7 +5,7 @@
     border-radius: 2px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
     .profile__add-rectangle {
         width: 282px;
         margin: 36px 0;
