@@ -12,7 +12,7 @@
 
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
     .profile-info__text {
         font-size: 14px;
         line-height: 17px;

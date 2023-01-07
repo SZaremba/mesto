@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
     .profile-info {
         column-gap: 10px;
         row-gap: 14px;

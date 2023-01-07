@@ -20,7 +20,6 @@
     .profile {
         display: flex;
         flex-direction: column;
-        grid-template-columns: 282px;
         justify-items: center;
         margin: 42px 0 0;
     }
