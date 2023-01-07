@@ -1,0 +1,7 @@
+.close-icon {
+    position: fixed;
+    top: calc(50% - (230px - 32px));
+    /*Выровнено Perfect Pixel*/
+    left: calc(50% + (191px + 32px));
+    /*Выровнено Perfect Pixel*/
+}

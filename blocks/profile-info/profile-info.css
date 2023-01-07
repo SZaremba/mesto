@@ -1,0 +1,18 @@
+.profile-info {
+    display: grid;
+    grid-template-columns: minmax(max-content 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    column-gap: 16px;
+    row-gap: 16px;
+    max-width: 336px;
+    align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+    .profile-info {
+        column-gap: 10px;
+        row-gap: 14px;
+        margin: 26px 0 0;
+    }
+}

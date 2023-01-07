@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+
+<body class="page">
+
+    <div class="content">
+
+        <header>
+            <div class="header">
+                <picture>
+                    <source class="logo" srcset="./image/logo-mini.png" media="(max-width: 425px)">
+                    <img class="logo" src="./image/Vector1.svg" alt="Логотип">
+                </picture>
+
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="profile">
+                    <div class="profile__avatar"></div>
+                    <div class="profile-info">
+                        <h1 class="profile-info__name">Жак-Ив Кусто</h1>
+                        <p class="profile-info__text">Исследователь океана</p>
+                        <div class="profile__edit-rectangle">
+                            <div class="profile__edit-button"></div>
+                        </div>
+                    </div>
+                    <div class="profile__add-rectangle">
+                        <div class="profile__add-button"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="elements">
+                    <div class="element">
+                        <img class="element__group" src="./image/Водопад.jpg" alt="Водопад">
+                        <div class="element__card">
+                            <h2 class="element__titl">Водопад</h2>
+                            <div class="element__like"></div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__group" src="./image/Донбай.jpg" alt="Горы Донбая">
+                        <div class="element__card">
+                            <h2 class="element__titl">Донбай</h2>
+                            <div class="element__like">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__group" src="./image/Зебра.jpg" alt="Зебра">
+                        <div class="element__card">
+                            <h2 class="element__titl">Африка</h2>
+                            <div class="element__like"></div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__group" src="./image/Парусная лодка подходит к берегу.jpg"
+                            alt="Парусная лодка идет к берегу">
+                        <div class="element__card">
+                            <h2 class="element__titl">Порусная лодка</h2>
+                            <div class="element__like"></div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__group" src="./image/Северное сияние.jpg" alt="Северное сияние">
+                        <div class="element__card">
+                            <h2 class="element__titl">Северное сияние</h2>
+                            <div class="element__like"></div>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img class="element__group" src="./image/Бамбуковый лес.jpg"
+                            alt="Бамбуковый лес">
+                        <div class="element__card">
+                            <h2 class="element__titl">Бамбуковый лес</h2>
+                            <div class="element__like"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <section class="footer">
+            <p class="footer__text">© 2020 Mesto Russia</p>
+        </section>
+        <div class="popup">
+            <img class="close-icon" src="./image/Close Icon.png" alt="кнопка закрытия формы редактирования">
+            <form class="popup__container" action="#" method="post" enctype="multipart/form-data">
+                <h2 class="popup__titl">Редактировать профиль</h2>
+                <input class="user__neim" placeholder="Имя" type="text" value="Жак-Ив Кусто">
+                <input class="user__profil" placeholder="О себе" type="text" value="Исследователь океана">
+                <button class="submit-button" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
