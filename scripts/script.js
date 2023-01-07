@@ -47,3 +47,5 @@ function clickLike() {
 }   
     likeElement.addEventListener('click', clickLike);
 //Надо двигаться дальше
+//С Новым годом и Рождеством. 
+//Здоровья Вам крепкого!!!
