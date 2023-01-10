@@ -1,6 +1,19 @@
 .profile__add-button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    background: #000000;
+    border-radius: 2px;
+    margin-bottom: 8px; /*выровнено PerfektPixel*/
+    cursor: pointer;
     background-image: url(../../../image/Plus.svg);
-    height: 100%;
     background-position: 50%;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 720px) {
+    .profile__add-button {
+        width: 282px;
+        margin: 31px 0 34px;
+    }
 }
