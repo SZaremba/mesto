@@ -8,3 +8,10 @@
     max-width: 282px;
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer__text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

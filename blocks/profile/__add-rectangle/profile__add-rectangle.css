@@ -1,13 +1,16 @@
 .profile__add-rectangle {
     width: 150px;
     height: 50px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
+    background: #000000;
     border-radius: 2px;
+    margin-bottom: 8px; /*выровнено PerfektPixel*/
+    cursor: pointer;
 }
 
 @media screen and (max-width: 720px) {
     .profile__add-rectangle {
         width: 282px;
-        margin: 36px 0;
+        margin: 31px 0 34px;
     }
 }

@@ -1,21 +1,21 @@
-.profile-info__text {
+.profile__info-name {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    margin: 0;
     color: #FFFFFF;
 
 }
 
 @media screen and (max-width: 720px) {
-    .profile-info__text {
-        font-size: 14px;
-        line-height: 17px;
+    .profile__info-name {
+        font-size: 27px;
+        line-height: 33px;
         text-align: center;
     }
 }
