@@ -22,3 +22,7 @@
         left: 262px;
     }
 }
+
+.popup__close-icon:hover { 
+    opacity: 0.6;
+}

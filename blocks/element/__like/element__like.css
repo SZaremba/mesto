@@ -3,8 +3,12 @@
     background-repeat: no-repeat;
     border: none;
     padding-right: 17px;
-    margin: 2px 5px 0;
+    margin: 2px 4px;
     width: 22px;
     height: 19px;
     cursor: pointer;
+}
+
+.element__like:hover {
+    opacity: 0.6;
 }
