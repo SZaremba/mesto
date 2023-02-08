@@ -1,0 +1,11 @@
+.element__delet {
+    background: url(../../../image/Group.svg);
+    border: none;
+    color: #FFFFFF;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    width: 18px;
+    height: 19px;
+    cursor: pointer;
+}

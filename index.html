@@ -33,55 +33,24 @@
             </section>
 
             <section class="elements" aria-label="Карточки мест">
-                <article class="element">
-                    <img class="element__group" src="./image/Водопад.jpg" alt="Водопад">
-                    <div class="element__card">
-                        <h2 class="element__title">Водопад</h2>
-                        <button class="element__like" type="button" aria-label="Нравится"></button>
-                    </div>
-                </article>
-                <article class="element">
-                    <img class="element__group" src="./image/Донбай.jpg" alt="Горы Донбая">
-                    <div class="element__card">
-                        <h2 class="element__title">Донбай</h2>
-                        <button class="element__like" type="button" aria-label="Нравится"></button>
-                    </div>
-                </article>
-                <article class="element">
-                    <img class="element__group" src="./image/Зебра.jpg" alt="Зебра">
-                    <div class="element__card">
-                        <h2 class="element__title">Африка</h2>
-                        <button class="element__like" type="button" aria-label="Нравится"></button>
-                    </div>
-                </article>
-                <article class="element">
-                    <img class="element__group" src="./image/Паруснаялодка.jpg" alt="Парусная лодка">
-                    <div class="element__card">
-                        <h2 class="element__title">Порусная лодка</h2>
-                        <button class="element__like" type="button" aria-label="Нравится"></button>
-                    </div>
-                </article>
-                <article class="element">
-                    <img class="element__group" src="./image/Северноесияние.jpg" alt="Северное сияние">
-                    <div class="element__card">
-                        <h2 class="element__title">Северное сияние</h2>
-                        <button class="element__like" type="button" aria-label="Нравится"></button>
-                    </div>
-                </article>
-                <article class="element">
-                    <img class="element__group" src="./image/Бамбуковыйлес.jpg" alt="Бамбуковый лес">
-                    <div class="element__card">
-                        <h2 class="element__title">Бамбуковый лес</h2>
-                        <button class="element__like" type="button" aria-label="Нравится"></button>
-                    </div>
-                </article>
+                <template id="element">
+                    <article class="element">
+                        <button class="element__delet" type="button" aria-label="Удалить"></button>
+                        <img class="element__group" src="" alt="">
+                        <div class="element__card">
+                            <h2 class="element__title"></h2>
+                            <button class="element__like" type="button" aria-label="Нравится"></button>
+                        </div>
+                    </article>
+                </template>
             </section>
         </main>
 
         <footer class="footer">
             <p class="footer__text">© 2020 Mesto Russia</p>
         </footer>
-        <div class="popup">
+
+        <div class="popup popup__edit-profile">
             <div class="popup__container">
                 <button class="popup__close-icon" type="button"></button>
                 <form class="popup__form" name="profile__form" action="#" enctype="multipart/form-data">
@@ -90,6 +59,20 @@
                         value="">
                     <input class="popup__input popup__input_type_profil" name="profilProfession" placeholder="О себе"
                         type="text" value="">
+                    <button class="popup__submit-button" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup popup__add-card">
+            <div class="popup__item-conteiner">
+                <button class="popup__close-item" type="button"></button>
+                <form class="popup__new-item" name="item__form" action="#" enctype="multipart/form-data">
+                    <h3 class="popup__item-title">Новое место</h3>
+                    <input class="popup__input popup__input_item_neim" name="itemName" placeholder="Название"
+                        type="text" value="">
+                    <input class="popup__input popup__input_item_profil" name="itemProfession"
+                        placeholder="Ссылка на картинку" type="text" value="">
                     <button class="popup__submit-button" type="submit">Сохранить</button>
                 </form>
             </div>
