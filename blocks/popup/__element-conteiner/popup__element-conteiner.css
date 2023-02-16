@@ -1,0 +1,10 @@
+.popup__element-conteiner{
+    position: fixed;    
+    left: 50px;
+    top: 30px;
+    min-width: 433px;
+    min-height: 540px;
+    max-width: 75vh;
+    max-height: 75vw;
+    border: 2px white solid;
+}

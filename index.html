@@ -33,7 +33,7 @@
             </section>
 
             <section class="elements" aria-label="Карточки мест">
-                <template id="element">
+                <template id="element-template">
                     <article class="element">
                         <button class="element__delet" type="button" aria-label="Удалить"></button>
                         <img class="element__group" src="" alt="">
@@ -44,49 +44,52 @@
                     </article>
                 </template>
             </section>
+
+            <div class="popup popup__edit-profile">
+                <div class="popup__container">
+                    <button class="popup__close-icon" type="button"></button>
+                    <form class="popup__form" name="profile__form" action="#" enctype="multipart/form-data">
+                        <h2 class="popup__title">Редактировать профиль</h2>
+                        <input class="popup__input popup__input_type_neim" name="profilName" placeholder="Имя"
+                            type="text" value="">
+                        <input class="popup__input popup__input_type_profil" name="profilProfession"
+                            placeholder="О себе" type="text" value="">
+                        <button class="popup__submit-button" type="submit">Сохранить</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="popup popup__add-card">
+                <template id="usercard"></template>
+                <div class="popup__item-conteiner">
+                    <button class="popup__close-item" type="button"></button>
+                    <form class="popup__new-item" name="item__form" action="#" enctype="multipart/form-data">
+                        <h3 class="popup__item-title">Новое место</h3>
+                        <input class="popup__input popup__input_item_neim" name="itemName" placeholder="Название"
+                            type="text" value="">
+                        <input class="popup__input popup__input_item_profil" name="itemProfession"
+                            placeholder="Ссылка на картинку" type="text" value="">
+                        <button class="popup__submit-button" type="submit">Сохранить</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="popup popup__element">
+                <div class="popup__element-conteiner">
+                    <button class="popup__close-item" type="button"></button>
+                    <img class="popup__img-card" src="">
+                    <table class="popup__img-open">
+                        <caption class="popup__element-name">Порусная лодка</caption>
+                    </table>
+                </div>
+            </div>
         </main>
 
         <footer class="footer">
             <p class="footer__text">© 2020 Mesto Russia</p>
         </footer>
 
-        <div class="popup popup__edit-profile">
-            <div class="popup__container">
-                <button class="popup__close-icon" type="button"></button>
-                <form class="popup__form" name="profile__form" action="#" enctype="multipart/form-data">
-                    <h2 class="popup__title">Редактировать профиль</h2>
-                    <input class="popup__input popup__input_type_neim" name="profilName" placeholder="Имя" type="text"
-                        value="">
-                    <input class="popup__input popup__input_type_profil" name="profilProfession" placeholder="О себе"
-                        type="text" value="">
-                    <button class="popup__submit-button" type="submit">Сохранить</button>
-                </form>
-            </div>
-        </div>
 
-        <div class="popup popup__add-card">
-            <div class="popup__item-conteiner">
-                <button class="popup__close-item" type="button"></button>
-                <form class="popup__new-item" name="item__form" action="#" enctype="multipart/form-data">
-                    <h3 class="popup__item-title">Новое место</h3>
-                    <input class="popup__input popup__input_item_neim" name="itemName" placeholder="Название"
-                        type="text" value="">
-                    <input class="popup__input popup__input_item_profil" name="itemProfession"
-                        placeholder="Ссылка на картинку" type="text" value="">
-                    <button class="popup__submit-button" type="submit">Сохранить</button>
-                </form>
-            </div>
-        </div>
-        <!--
-        <div class="popup popup__img">
-            <div class="popup__img-conteiner">
-                <button class="popup__img-close" type="button"></button>
-                <form class="popup__img-open" name="img__form" action="#" enctype="multipart/form-data">
-                    <img class="popup__img-card" src="">
-                </form>
-            </div>
-        </div>
-        -->
     </div>
 
     <script src="scripts/index.js"></script>
