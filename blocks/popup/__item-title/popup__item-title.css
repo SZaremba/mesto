@@ -4,14 +4,14 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
-    margin: 34px 64px 15px 16px;
+    margin: 34px 200px 15px 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
     .popup__item-title {
         font-size: 18px;
         line-height: 22px;
-        margin: 25px auto 43px;
+        margin: 25px 112px 43px 0;
         padding-right: 7px;
     }
 }

@@ -1,4 +1,4 @@
-.popup__img-card{
-    width: 433px;
-    height: 540px;
+.popup__img-card {
+    max-width: 75vw;
+    max-height: 75vh;
 }

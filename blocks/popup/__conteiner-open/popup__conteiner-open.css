@@ -1,0 +1,5 @@
+.popup__conteiner-open {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
