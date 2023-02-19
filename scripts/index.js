@@ -60,6 +60,7 @@ const creatCard = (link, name) => {
     elemImg.addEventListener('click', () => {
         const elemImg = elementCard.querySelector('.element__group');
         cardOpenImg.setAttribute('src', elemImg.getAttribute('src'));
+        cardOpenImg.setAttribute('alt', elemTitle.textContent);
         cardOpenName.textContent = elemTitle.textContent;
         openPopup(openElementPopup);
     })
