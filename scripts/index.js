@@ -69,14 +69,14 @@ const creatCard = (link, name) => {
     return elementCard;
 };
 
-const renderCard = (link, name) => {
-    elements.prepend(creatCard(link, name));
-};
-
 const creatArrayCard = elemCont.forEach((elem) => {
     creatCard(elem.link, elem.name);
     return elem;
 });
+
+const renderCard = (link, name) => {
+    elements.prepend(creatCard(link, name));
+};
 
 const profileForm = content.querySelector('.popup__container');// Форма редактироания профиля
 const submitForm = content.querySelector('.popup__submit-buttom');
