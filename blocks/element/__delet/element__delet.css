@@ -9,3 +9,7 @@
     height: 19px;
     cursor: pointer;
 }
+
+.element__delet:hover {
+    opacity: 0.6;
+}
