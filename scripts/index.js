@@ -81,8 +81,8 @@ const renderCard = (link, name) => {
 const profileForm = content.querySelector('.popup__container');// Форма редактироания профиля
 const submitForm = content.querySelector('.popup__submit-buttom');
 const profileButton = content.querySelector('.profile__edit-button');
-const popupAddCard = content.querySelector('.popup__add-card');
-const popupEditProfile = content.querySelector('.popup__edit-profile');
+const popupAddCard = content.querySelector('.popup__add_card');
+const popupEditProfile = content.querySelector('.popup__edit_profile');
 const popupElement = content.querySelector('.popup__element');
 
 // Форма редактирования профиля
@@ -95,8 +95,8 @@ const jobInput = profileForm.querySelector('.popup__input_type_profil');
 
 // Обе кнопки закрытия форм
 const closeForm = content.querySelector('.popup__close');
-const closeFormItem = popupAddCard.querySelector('.popup__close-item');
-const closeElem = content.querySelector('.popup__close-elem');
+const closeFormItem = popupAddCard.querySelector('.popup__close_item');
+const closeElem = content.querySelector('.popup__close_elem');
 
 const openPopup = (popupElement) => {
     popupElement.classList.toggle('popup_opened');
@@ -132,7 +132,7 @@ function handleFormSubmit(evt) {
 }
 form.addEventListener('submit', handleFormSubmit);
 
-const formCard = content.querySelector('.popup__new-item');
+const formCard = content.querySelector('.popup__form_item');
 const inputTitle = popupAddCard.querySelector('.popup__input_item_neim');//Название карточки мест
 const inputImg = popupAddCard.querySelector('.popup__input_item_profil');//Фото карточки
 
