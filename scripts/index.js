@@ -30,9 +30,9 @@ const elemCont = [
 ];
 
 const cardOpenImg = content.querySelector('.popup__img-card');
-const cardOpenName = content.querySelector('.popup__element-name');
-const openElemCont = content.querySelector('.popup__element-conteiner');
-const openElementPopup = content.querySelector('.popup__element');
+const cardOpenName = content.querySelector('.popup_element_name');
+const openElemCont = content.querySelector('.popup_element_conteiner');
+const openElementPopup = content.querySelector('.popup_element');
 
 const profileAddButton = content.querySelector('.profile__add-button');//Кнопка добавления карточки
 const elements = content.querySelector('.elements');//Блок карточек мест
@@ -78,12 +78,12 @@ const renderCard = (link, name) => {
     elements.prepend(creatCard(link, name));
 };
 
-const profileForm = content.querySelector('.popup__container');// Форма редактироания профиля
+const profileForm = content.querySelector('.popup__conteiner');// Форма редактироания профиля
 const submitForm = content.querySelector('.popup__submit-buttom');
 const profileButton = content.querySelector('.profile__edit-button');
 const popupAddCard = content.querySelector('.popup_card');
 const popupEditProfile = content.querySelector('.popup_profile');
-const popupElement = content.querySelector('.popup__element');
+const popupElement = content.querySelector('.popup_element');
 
 // Форма редактирования профиля
 const form = content.querySelector('.popup__form');

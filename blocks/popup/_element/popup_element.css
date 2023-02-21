@@ -1,4 +1,4 @@
-.popup__element {
+.popup_element {
     display: flex;
     visibility: hidden;
     opacity: 0;
