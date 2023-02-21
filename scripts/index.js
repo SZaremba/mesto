@@ -81,8 +81,8 @@ const renderCard = (link, name) => {
 const profileForm = content.querySelector('.popup__container');// Форма редактироания профиля
 const submitForm = content.querySelector('.popup__submit-buttom');
 const profileButton = content.querySelector('.profile__edit-button');
-const popupAddCard = content.querySelector('.popup__add_card');
-const popupEditProfile = content.querySelector('.popup__edit_profile');
+const popupAddCard = content.querySelector('.popup_card');
+const popupEditProfile = content.querySelector('.popup_profile');
 const popupElement = content.querySelector('.popup__element');
 
 // Форма редактирования профиля
@@ -95,7 +95,7 @@ const jobInput = profileForm.querySelector('.popup__input_type_profil');
 
 // Обе кнопки закрытия форм
 const closeForm = content.querySelector('.popup__close');
-const closeFormItem = popupAddCard.querySelector('.popup__close_item');
+const closeFormItem = popupAddCard.querySelector('.popup__close_item_card');
 const closeElem = content.querySelector('.popup__close_elem');
 
 const openPopup = (popupElement) => {
