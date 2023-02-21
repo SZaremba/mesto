@@ -1,0 +1,14 @@
+.popup__conteiner {
+    position: fixed;
+    left: calc(50% - 214.9px);
+    top: calc(50% - 180.9px);
+    width: 430px;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__conteiner {
+        width: 282px;
+        left: calc(50% - 141px);
+        top: calc(50% - 159px);
+    }
+}
